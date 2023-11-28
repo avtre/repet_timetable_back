@@ -52,7 +52,7 @@ app.post('/web-data', async (req, res) => {
     }
     catch (e) {
         console.log(e);
-        return res.status(500)
+        return res.status(500).json({})
     }
 })
 
