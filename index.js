@@ -3,8 +3,8 @@ const express = require('express')
 const cors = require('cors')
 
 const token = '6890052934:AAE_IKHsd09EsX_N09xyTGuXiP931O5m9M8';
-// const webAppUrl = 'https://main--glistening-smakager-d89994.netlify.app'
-const webAppUrl = 'https://dd61-79-139-171-121.ngrok-free.app'
+const webAppUrl = 'https://main--glistening-smakager-d89994.netlify.app'
+// const webAppUrl = 'https://dd61-79-139-171-121.ngrok-free.app'
 
 const bot = new TelegramBot(token, {polling: true});
 const app = express();
